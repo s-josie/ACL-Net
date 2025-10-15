@@ -1,5 +1,5 @@
-IMAGES_DIR = "data/processed/swimseg/images"
-MASKS_DIR = "data/processed/swimseg/GTmaps"
+IMAGES_DIR = "/content/drive/MyDrive/data/processed/swimseg/images"
+MASKS_DIR = "/content/drive/MyDrive/data/processed/swimseg/GTmaps" 
 RESIZE_SIZE = (300, 300)
 CROP_SIZE = (288, 288)
 LOG_DIR = "../logs"
