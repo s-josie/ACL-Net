@@ -7,7 +7,7 @@ from sklearn.metrics import matthews_corrcoef
 from sklearn.metrics import roc_curve, auc
 import matplotlib.pyplot as plt
 import tensorflow as tf
-from src.data.dataloader import *
+from data.dataloader import *
 from tqdm import tqdm
 from config import *
 from utils import *
