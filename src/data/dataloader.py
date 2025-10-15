@@ -5,7 +5,7 @@ sys.path.append("../src")
 from sklearn.model_selection import train_test_split
 import albumentations as A
 import tensorflow as tf
-from config import *
+from ..config import *
 from utils import *
 import numpy as np
 import cv2
