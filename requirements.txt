@@ -1,7 +1,7 @@
-# Core ML stack (Colab-compatible)
+# --- Core ML stack (Colab-compatible) ---
 tensorflow==2.19.0
 keras==3.5.0
-numpy==1.26.4
+numpy==1.26.4         # safe with TF 2.19
 pandas==2.2.2
 scikit-learn==1.6.0
 scipy==1.14.1
@@ -12,9 +12,9 @@ imageio==2.35.1
 Pillow==10.4.0
 tqdm==4.67.0
 
-# TensorFlow + Keras dependencies
+# --- TensorFlow / Keras dependencies ---
 absl-py==1.4.0
-protobuf==4.25.8
+protobuf==5.29.1       # ✅ compatible with grpcio-status & ydf
 tensorboard==2.19.0
 h5py==3.11.0
 flatbuffers==24.3.25
@@ -23,9 +23,10 @@ libclang==18.1.1
 google-auth==2.38.0
 google-auth-oauthlib==1.2.1
 grpcio==1.71.2
+grpcio-status==1.71.2  # ✅ explicit to match grpcio
 Markdown==3.7
 
-# Utilities
+# --- Utilities ---
 requests==2.32.4
 urllib3==2.2.3
 cachetools==5.3.3
