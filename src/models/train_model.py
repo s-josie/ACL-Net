@@ -35,6 +35,7 @@ if __name__ == '__main__':
     logging.basicConfig(level = logging.INFO, filename = os.path.join(LOG_DIR, 'app.log'), format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', filemode='w')
 
     sys.stdout = LoggerWriter(logging.info)
+    os.makedirs(LOG_DIR, exist_ok=True)
     sys.stderr = LoggerWriter(logging.error)
 
     main()
