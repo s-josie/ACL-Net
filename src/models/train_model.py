@@ -4,7 +4,7 @@ sys.path.append("../src")
 sys.path.append("../src/data/")
 
 import tensorflow as tf
-from data.dataloader import *
+from ..data.dataloader import *
 from network import *
 from loss import *
 from config import *
